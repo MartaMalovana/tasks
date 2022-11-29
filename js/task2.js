@@ -17,10 +17,9 @@ function showResult () {
         const rowBody = document.createElement('tr');
         const cell1 = document.createElement('td');
         cell1.textContent = i;
-        rowBody.append(cell1);
         const cell2 = document.createElement('td');
         cell2.textContent = i * rate;
-        rowBody.append(cell2);
+        rowBody.append(cell1, cell2);
         body.append(rowBody);
     }
     // Add table to DOM

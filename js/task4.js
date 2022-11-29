@@ -7,11 +7,11 @@ function showResult () {
         const inputNumber = document.querySelector('input').value;
         let answer;
         let arr = [];
+        if(inputNumber === 1) {
+            document.querySelector('.result').textContent = 'Так';
+            return;
+        }
         for(let i=2; i<inputNumber; i+=1) {
-            if(inputNumber === 1) {
-                document.querySelector('.result').textContent = 'Так';
-                return;
-            }
             if(Number.isInteger(inputNumber / i)) {
                 arr.push(true);
             };
