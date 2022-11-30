@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../index.css" />
+  </head>
+  <body>
+    <div>
+      <a href="../index.html">На головну</a>
+      <p>Завдання 6</p>
+      <p>
+        Створити масив, довжину та елементи якого задає користувач. Відсортувати
+        масив за зростанням. Видалити елементи з масиву з 2 по 4 (включно!). У
+        міру змін виводити вміст масиву на сторінку.
+      </p>
+      <form class="numberArray">
+        <label>
+          Введіть числа, які бажаєте додати у масив, розділяючи їх комою:
+          <input
+            type="text"
+            class="arrInput"
+            pattern="[0-9,]{1,100}"
+            title="Лише числа, розділені комою"
+          />
+        </label>
+        <button type="submit">Додати</button>
+      </form>
+      <div class="result"></div>
+    </div>
+
+    <script src="../js/task6.js"></script>
+  </body>
+</html>

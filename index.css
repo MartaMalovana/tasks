@@ -18,6 +18,33 @@ table td {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
   margin: 30px 0;
   padding: 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+label {
+  margin: 10px;
+
+}
+
+button {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+form.numberArray {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.arrInput {
+  display: block;
+  margin: 15px auto;
+  width: 100%;
 }
