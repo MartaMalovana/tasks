@@ -48,3 +48,17 @@ form.numberArray {
   margin: 15px auto;
   width: 100%;
 }
+
+.photoDiv {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.photoDiv label {
+  margin: 0 20px; 
+}
+
+.submitPhoto {
+  display: block;
+}
